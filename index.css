@@ -23,21 +23,22 @@ header{
 img{
     width: 140px;
     margin-right: 500px;
-    border-radius: 20px;
 
 }
+
 
 header ul{
     display: flex;
     height: 50px;
+    width: 100%;
     justify-content: center;
     list-style: none;
     align-items: center;
     font-size: 24px;
     margin: 54px;
-    gap: 200px;
+    gap: 250px;
     
-
+    
 }
 
 ul il{
@@ -46,18 +47,19 @@ ul il{
     justify-content: center;
     width: 180px;
     height: 180px;
-    gap: 200px;
+    cursor: pointer;
+    
 }
 
 li:hover{
     background-color: rgb(236, 194, 115);
-    width: 300px;
+    width: 100%;
     height: 160px;
     align-items: center;
     justify-content: center;
     display: flex;
     text-align: center;
-    
+    gap: 250px;
     
 }
 
@@ -69,6 +71,17 @@ main{
     margin-top: 950px;
     text-align: left;
     
+}
+
+#ring {
+    width: 500px;
+    top: 500px;
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    border-radius: 5%;
+    float:none;
+    margin-top: 80px
 }
 
 #night{
@@ -103,177 +116,6 @@ main{
     left: 1100px;
     z-index: -2;
     margin-top: 100px;
-    border-radius: 20px;
-}
-
-.quadrado{
-    width: 390px;
-    height: 500px;
-    background-color: rgb(182, 0, 0);
-    position: absolute;
-    top: 1500px;
-    left: 100px;
-    z-index: -1;
-    border-radius: 20px;
+    border-radius: 5%;
     
-}
-
-.quadrado2{ 
-    width: 390px;
-    height: 500px;
-    background-color: rgb(146, 146, 146);
-    position: absolute;
-    top: 1900px;
-    right: 100px;
-    z-index: -1;
-    border-radius: 20px;
-
-}
-
-.quadrado3{
-    width: 390px;
-    height: 500px;
-    background-color: rgb(9, 10, 83);
-    position: absolute;
-    top: 2300px;
-    left: 100px;
-    z-index: -1;
-    border-radius: 20px;
-
-}
-
-.quadrado4{
-    width: 390px;
-    height: 500px;
-    background-color: rgba(211, 127, 0, 0.808);
-    position: absolute;
-    top: 2700px;
-    right: 100px;
-    z-index: -1;
-    border-radius: 20px;
-
-}
-
-.quadrado5{
-    width: 390px;
-    height: 500px;
-    background-color: rgb(146, 146, 146);
-    position: absolute;
-    top: 3100px;
-    left: 100px;
-    z-index: -1;
-    border-radius: 20px;
-
-}
-.quadrado6{
-    width: 390px;
-    height: 500px;
-    background-color: rgb(146, 146, 146);
-    position: absolute;
-    top: 3500px;
-    right: 100px;
-    z-index: -1;
-    border-radius: 20px;
-
-}
-
-.quadrado7{
-    width: 390px;
-    height: 500px;
-    background-color: rgb(146, 146, 146);
-    position: absolute;
-    top: 3900px;
-    left: 100px;
-    z-index: -1;
-    border-radius: 20px;
-
-}
-
-
-#segundo-p{
-    position: absolute;
-    top: 1900px;
-    left: 540px;
-    text-emphasis: none;    
-    
-}
-
-#terceiro-p{
-    position: absolute;
-    top: 2300px;
-    right: 500px;
-
-}
-
-#quarto-p{
-    position: absolute;
-    top: 2700px;
-    right: 500px;
-    left: 540px;
-}
-
-#quinto-p{
-    position: absolute;
-    top: 3100px;
-    right: 500px;
-}
-
-#sexto-p{
-    position: absolute;
-    top: 3500px;
-    right: 500px;
-    left: 540px;
-}
-
-#setimo-p{
-    position: absolute;
-    top: 3900px;
-    right: 500px;
-}
-
-#ring {
-    width: 500px;
-    top: 500px;
-    position: absolute;
-    top: 200px;
-    left: 1000px;
-    border-radius: 20px;
-    float:none;
-    margin-top: 80px
-}
-
-#davidson{
-    width: 430px;
-    height: 580px;  
-    position: absolute;
-    top: 1300px;
-    left: 200px;
-}
-
-#draft{
-    width: 430px;
-    height: 580px;
-    position: absolute;
-    top: 1700px;
-    right: 200px;
-    margin: 0;
-}   
-
-#titulo{
-    width: 430px;
-    height: 580px;  
-    position: absolute;
-    top: 2100px;
-    left: 200px;
-
-}
-
-#titulos{
-    width: 430px;
-    height: 580px;  
-    position: absolute;
-    top: 2500px;
-    right: 200px;
-    margin: 0;
-
 }
